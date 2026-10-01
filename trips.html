@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Find Trips - Solo2Squad</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<nav>
+
+    <div class="logo">
+        Solo<span>2</span>Squad
+    </div>
+
+    <div class="nav-links">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="create-trip.html">
+            Create Trip
+        </a>
+
+        <a href="profile.html">
+            Profile
+        </a>
+
+    </div>
+
+</nav>
+
+
+<section class="trips-container">
+
+    <h1>
+        Find Your Travel Squad 🌍
+    </h1>
+
+    <p class="page-description">
+
+        Discover trips and connect with
+        people who love travelling.
+
+    </p>
+
+
+    <!-- SEARCH -->
+
+    <div class="search-box">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search destination..."
+        >
+
+
+        <select id="typeFilter">
+
+            <option value="all">
+                All Types
+            </option>
+
+            <option value="Adventure">
+                Adventure
+            </option>
+
+            <option value="Beach">
+                Beach
+            </option>
+
+            <option value="Road Trip">
+                Road Trip
+            </option>
+
+            <option value="Trekking">
+                Trekking
+            </option>
+
+            <option value="Cultural">
+                Cultural
+            </option>
+
+            <option value="Relaxation">
+                Relaxation
+            </option>
+
+        </select>
+
+    </div>
+
+
+    <!-- TRIP LIST -->
+
+    <div
+        class="trip-grid"
+        id="tripList"
+    >
+
+        <p class="loading">
+            Loading trips...
+        </p>
+
+    </div>
+
+</section>
+
+
+<script
+    type="module"
+    src="script.js">
+</script>
+
+</body>
+
+</html>

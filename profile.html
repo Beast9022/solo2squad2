@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>My Profile - Solo2Squad</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<nav>
+
+    <div class="logo">
+        Solo<span>2</span>Squad
+    </div>
+
+    <div class="nav-links">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="trips.html">
+            Find Trips
+        </a>
+
+        <a href="create-trip.html">
+            Create Trip
+        </a>
+
+        <a href="profile.html">
+            Profile
+        </a>
+
+    </div>
+
+</nav>
+
+
+
+<main class="profile-container">
+
+
+    <!-- PROFILE HEADER -->
+
+    <div class="profile-header">
+
+        <div class="profile-avatar">
+            👤
+        </div>
+
+        <h1 id="profileName">
+            Loading...
+        </h1>
+
+        <p id="profileEmail">
+            Loading email...
+        </p>
+
+    </div>
+
+
+
+    <div class="profile-info">
+
+
+        <!-- CITY -->
+
+        <div class="info-box">
+
+            <span>
+                📍
+            </span>
+
+            <div>
+
+                <small>
+                    City
+                </small>
+
+                <strong id="profileCity">
+                    Loading...
+                </strong>
+
+            </div>
+
+        </div>
+
+
+        <div class="info-box">
+
+            <span>
+                🌍
+            </span>
+
+            <div>
+
+                <small>
+                    Trips Created
+                </small>
+
+                <strong id="tripCount">
+                    0
+                </strong>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <div class="profile-actions">
+
+        <a
+            href="create-trip.html"
+            class="btn"
+        >
+            Create Trip
+        </a>
+
+
+        <a
+            href="trips.html"
+            class="btn"
+        >
+            Find Trips
+        </a>
+
+
+        <a
+            href="requests.html"
+            class="btn"
+        >
+            Join Requests 🤝
+        </a>
+
+
+        <button
+            id="logoutBtn"
+            class="logout-btn"
+        >
+            Logout
+        </button>
+
+    </div>
+
+
+</main>
+
+<script type="module" src="script.js"></script>
+
+</body>
+
+</html>

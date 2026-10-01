@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Create Trip - Solo2Squad</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+<nav>
+
+    <div class="logo">
+        Solo<span>2</span>Squad
+    </div>
+
+    <div class="nav-links">
+
+        <a href="index.html">
+            Home
+        </a>
+
+        <a href="trips.html">
+            Find Trips
+        </a>
+
+        <a href="profile.html">
+            Profile
+        </a>
+
+    </div>
+
+</nav>
+
+
+<div class="form-container">
+
+    <h2>
+        Create a Trip 🌍
+    </h2>
+
+    <p>
+        Create your trip and find people
+        who want to travel with you.
+    </p>
+
+
+    <input
+        type="text"
+        id="tripName"
+        placeholder="Trip Name"
+    >
+
+
+    <input
+        type="text"
+        id="destination"
+        placeholder="Destination"
+    >
+
+
+    <input
+        type="date"
+        id="tripDate"
+    >
+
+
+    <select id="tripType">
+
+        <option value="">
+            Select Travel Type
+        </option>
+
+        <option value="Adventure">
+            Adventure
+        </option>
+
+        <option value="Beach">
+            Beach
+        </option>
+
+        <option value="Road Trip">
+            Road Trip
+        </option>
+
+        <option value="Trekking">
+            Trekking
+        </option>
+
+        <option value="Cultural">
+            Cultural
+        </option>
+
+        <option value="Relaxation">
+            Relaxation
+        </option>
+
+    </select>
+
+
+    <input
+        type="number"
+        id="members"
+        placeholder="Maximum Members"
+        min="2"
+        max="20"
+    >
+
+
+    <textarea
+        id="description"
+        placeholder="Describe your trip..."
+    ></textarea>
+
+
+    <button id="createTripBtn">
+
+        Create Trip
+
+    </button>
+
+</div>
+
+
+<script
+    type="module"
+    src="script.js">
+</script>
+
+</body>
+
+</html>
